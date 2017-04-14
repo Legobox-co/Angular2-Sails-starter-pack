@@ -1,5 +1,5 @@
 {
-  "name": "angular2-Sails",
+  "name": "angular2-Sails-Starter-Pack",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -44,12 +44,12 @@
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js",
-    "dev": "concurrently \"tsc\" \"sails lift\""
+    "dev": "concurrently \"typings intall\" \"tsc\" \"sails lift\""
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozartted/angular2+Sails.git"
+    "url": "git://github.com/mozartted/Angular2-Sails-starter-pack.git"
   },
   "author": "mozartted",
   "license": "",

@@ -2,5 +2,5 @@
 
 > an [Angular](https://angular.io/) and [Sails](http://sailsjs.org) application
 
-## Introduction
+> readme would be updated soon...talking my time to put quality content and instructions
 

@@ -1,3 +1,6 @@
-# angular2+Sails
+# Angular Sails starter pack
 
-a [Sails](http://sailsjs.org) application
+> an [Angular](https://angular.io/) and [Sails](http://sailsjs.org) application
+
+## Introduction
+

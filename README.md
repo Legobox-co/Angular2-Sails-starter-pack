@@ -1,5 +1,5 @@
 # Angular Sails Starter pack
-> an [Angular](https://angular.io/) and [Sails](http://sailsjs.org) application
+> an [Angular](https://angular.io/) and [Sails](http://sailsjs.org) project
 
 In setting up a project using angular2 as the frontend and sails framework on the backend there's usually a lot in between, the starter pack helps take care of this so that you concentrate on the fun part which is building your project. its clean and straight to the point. with features like single command installation.
 

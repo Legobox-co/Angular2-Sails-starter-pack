@@ -15,7 +15,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: '<h1>My First Angular/Sails App</h1>'
+        template: './app.component.html'
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

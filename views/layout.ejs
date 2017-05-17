@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
-
+    <title><%=typeof title == 'undefined' ? 'Angular Sails Pack' : title%></title>
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
     <!--
         Stylesheets and Preprocessors
@@ -32,9 +32,10 @@
     <!--STYLES END-->
 
     <script src="node_modules/core-js/client/shim.min.js"></script>
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/reflect-metadata/Reflect.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!--<script src="node_modules/zone.js/dist/zone.js"></script>-->
+    <!--<script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>-->
 
   </head>
 
@@ -61,7 +62,7 @@
             + Internationalize your client-side templates using a server-side
               stringfile before they're served.
     -->
-
+    <base href="/">
     <!--TEMPLATES-->
     
     <!--TEMPLATES END-->
@@ -90,14 +91,14 @@
 
     -->
 
-    <!--SCRIPTS-->
-    <script src="/js/dependencies/sails.io.js"></script>
-    <script src="/js/systemjs.config.js"></script>
-    <!--SCRIPTS END-->
+    <!--<script src="./js/dependencies/sails.io.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script>
-    System.import('app').catch(function(err){ console.error(err); });
-    </script>
+
+    <script src="./polyfills.js"></script>
+    <script src="./vendor.js"></script>
+    <script src="./app.js"></script>
     
   </body>
 </html>

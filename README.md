@@ -36,8 +36,10 @@ $ npm install
 
 ```
 > this would install all neccesary packages required by the project.
-- Run `npm run dev` to install typings and get the project running.
-
+- Run the project with the command
+```bash
+sails lift
+```
 
 <!-- ### Installing
 
